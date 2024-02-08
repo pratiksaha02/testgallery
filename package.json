@@ -1,1 +1,17 @@
+{
+  "name": "testgallery",
+  "version": "1.0.0",
+  "description": "A portfolio website with login and photo upload functionality",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.1.2",
+    "multer": "^1.4.4",
+    "passport": "^0.5.3",
+    "passport-local": "^1.0.0"
+  }
+}
 
