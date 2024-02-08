@@ -9,7 +9,7 @@ const session = require("express-session");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Connect to MongoDB
+/* Connect to MongoDB */
 const mongoURI="mongodb+srv://02pratiksh:its a sunny day00@cluster0.ikywwba.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(mongoURI, {
     useNewUrlParser: true,
